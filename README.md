@@ -1,7 +1,7 @@
 # Springreens — website prototype (3 design directions)
 
 A clickable, hosted prototype for **Springreens** (Healthy Halal Soul Food, East Atlanta),
-built by **Inheriting Islam Studio** as a sales tool. Static, self-contained, no build step.
+built by **Musayyir** as a sales tool. Static, self-contained, no build step.
 
 ## Three designs to choose from — use the "Design" switcher at the bottom of any page
 1. **Soul Kitchen** (`/`) — warm, cozy, appetite-first. Fraunces + Mulish, deep green + honey + cream.

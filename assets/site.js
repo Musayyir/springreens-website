@@ -93,7 +93,7 @@
         var get = function (n) { return (f.elements[n] && f.elements[n].value || '').trim(); };
         var name = get('name'), email = get('email'), phone = get('phone'),
             date = get('date'), guests = get('guests'), type = get('type'), msg = get('message');
-        var to = form.getAttribute('data-to') || 'inheritingislam@gmail.com';
+        var to = form.getAttribute('data-to') || 'hamza@musayyir.com';
         var subject = 'Catering Inquiry — ' + (name || 'New guest') + (date ? ' (' + date + ')' : '');
         var body =
           'CATERING INQUIRY — Springreens\n\n' +
@@ -148,7 +148,7 @@ document.addEventListener('DOMContentLoaded', function () {
       e.preventDefault();
       var inp = f.querySelector('input[type=email]');
       var email = inp ? inp.value.trim() : '';
-      var to = f.getAttribute('data-to') || 'inheritingislam@gmail.com';
+      var to = f.getAttribute('data-to') || 'hamza@musayyir.com';
       window.location.href = 'mailto:' + to + '?subject=' + encodeURIComponent('Springreens — newsletter signup') +
         '&body=' + encodeURIComponent('Please add me to the Springreens list: ' + email);
       var ok = f.querySelector('.nl-ok');
